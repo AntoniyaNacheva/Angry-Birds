@@ -3,6 +3,14 @@
 ###############################################################################
 * text=auto
 
+# Enforce line endings
+* text=auto
+
+# Ignore line ending changes in specific folders (like Library and Temp)
+Library/* -text
+Temp/* -text
+
+
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
